@@ -1,0 +1,121 @@
+/* styles.css */
+.navbar {
+    background-color: cornflowerblue; /* Navbar background color */
+}
+
+.nav-item {
+    margin: 0 15px; /* Space between nav items */
+}
+
+.nav-link {
+    color: white; /* Text color for nav links */
+}
+
+.btn-success {
+    margin-left: auto; /* Aligns the button to the right */
+}
+/* styles.css */
+.carousel-item img {
+    width: 100%;       /* Make the image take the full width of the carousel */
+    height: 550px;      /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the area, cropping if necessary */
+}
+
+footer{
+    background: saddlebrown;
+}
+.about img {
+    max-width: 100%; /* Ensures the image doesn't exceed its container width */
+    height: auto;    /* Maintains the aspect ratio */
+    display: block;  /* Ensures there are no extra spaces around the image */
+    margin: 0 auto;  /* Center the image within the column */
+}
+.about h2 {
+    font-size: 2rem; /* Larger font size for the heading */
+    color: #2c3e50; /* Darker color for better contrast */
+    margin-bottom: 20px; /* Space below the heading */
+    padding-top: 10px;
+}
+
+.about p {
+    font-size: 1.1rem; /* Slightly larger font for better readability */
+    line-height: 1.6; /* Increased line height for better spacing */
+    color: #34495e; /* Subtle color for the text */
+    margin-bottom: 15px; /* Space between paragraphs */
+}
+.about{
+    background: gainsboro;
+}
+.center{
+    text-align: center;
+    color: darkblue;
+    padding-bottom: 20px;
+
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.service-box {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.skills h4 {
+    font-weight: bold;
+    color: #00070e; /* Customize as needed */
+}
+
+.skills p {
+    color: #555; /* Darker text for descriptions */
+}
+.skills .card {
+    border: none; /* Removes the default border */
+    border-radius: 10px; /* Rounded corners */
+    background: #007bff;
+}
+
+.skills .card-title {
+    font-weight: bold;
+    color: #00050b; /* Custom color for titles */
+}
+
+.skills .card-text {
+    color: #555; /* Darker text for descriptions */
+}
+.skills .skill-card {
+    background-color: #f8f9fa; /* Soft light background */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for effects */
+}
+
+.skills .skill-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+
+.skills .card-text {
+    color: #555; /* Darker text for descriptions */
+}
+.portfolio .portfolio-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.portfolio .portfolio-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Deep shadow on hover */
+}
+
+.portfolio img {
+    height: 200px; /* Set a uniform height for images */
+    object-fit: cover; /* Maintain aspect ratio while covering */
+}
